@@ -1,0 +1,5 @@
+- npm run install
+- npm run start
+- update lines 5-9 in updateScipt.js to match values you need
+- select dates you want to update in your timesheet on bob from date picker
+- wait for script to complete - logs will show 200 when done - ex: POST /update 200

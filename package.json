@@ -1,0 +1,17 @@
+{
+  "name": "bob_multiple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend && npm run start\" \"cd client && npm run start\"",
+    "install": "concurrently \"cd backend && npm install\" \"cd client && npm install\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
